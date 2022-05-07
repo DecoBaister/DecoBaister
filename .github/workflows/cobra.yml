@@ -113,7 +113,7 @@ void render()
   write("Snake");
 
   char buff[20];
-  sprintf(buff, "SCORE: %d", length - 1);
+  sprintf(buff, "SCORE:", length - 1");
   setPos(posx + width + 3, posy + 2);
   write(buff);
 
